@@ -90,7 +90,7 @@ static void dark_slider_constructor(const lv_obj_class_t * class_p, lv_obj_t * o
 
         lv_style_init(&style_light_knob);
         lv_style_set_bg_color(&style_light_knob, lv_color_hex(0xeeeeee));
-        lv_style_set_bg_opa(&style_light_knob, 255);
+        lv_style_set_bg_opa(&style_light_knob, 200);
         lv_style_set_shadow_width(&style_light_knob, 20);
         lv_style_set_shadow_opa(&style_light_knob, 120);
         lv_style_set_shadow_offset_y(&style_light_knob, 2);
@@ -99,7 +99,7 @@ static void dark_slider_constructor(const lv_obj_class_t * class_p, lv_obj_t * o
 
         lv_style_init(&style_blue_indicator);
         lv_style_set_bg_color(&style_blue_indicator, lv_color_hex(0x0000ff));
-        lv_style_set_bg_opa(&style_blue_indicator, 255);
+        lv_style_set_bg_opa(&style_blue_indicator, 200);
         lv_style_set_radius(&style_blue_indicator, 100);
 
         style_inited = true;

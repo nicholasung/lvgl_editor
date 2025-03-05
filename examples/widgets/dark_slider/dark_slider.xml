@@ -11,14 +11,14 @@
                height="10"
                pad_all="0"/> 
         <style name="light_knob" 
-               bg_color="0xeeeeee" bg_opa="255" 
+               bg_color="0xeeeeee" bg_opa="200" 
                shadow_width="20"
                shadow_opa="120"
                shadow_offset_y="2" 
                radius="100" 
                pad_all="5"/>
         <style name="blue_indicator" 
-               bg_color="0x0000ff" bg_opa="255" 
+               bg_color="0x0000ff" bg_opa="200" 
                radius="100"
                />
     </styles>
